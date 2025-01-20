@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 pydantic
-pickle
 pickle-mixin
 requests
 beautifulsoup4
