@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+pickle
+pickle-mixin
+requests
+beautifulsoup4
+python-multipart
+mangum
