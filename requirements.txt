@@ -5,3 +5,4 @@ pickle-mixin
 requests
 beautifulsoup4
 python-multipart
+scikit-learn
