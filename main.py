@@ -3,8 +3,6 @@ from pydantic import BaseModel
 import pickle
 
 import requests
-from mangum import Mangum  # Import Mangum
-
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
 import requests
@@ -291,5 +289,3 @@ async def scrape(
         "input": inputs,
         "message": "Scraping completed successfully"
     }
-
-handler = Mangum(app)
